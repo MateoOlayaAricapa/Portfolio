@@ -9,7 +9,7 @@ function SeccionEncabezado(){
         <a className="containerHeader__a" href="#section__intro">INICIO</a>
         <a className="containerHeader__a" href="#section__aboutMe">SOBRE MÍ</a>
         <a className="containerHeader__a" href="#section__skills">HABILIDADES</a>
-        <a className="containerHeader__a" href="#section__proyects">PROYECTO</a>
+        <a className="containerHeader__a" href="#section__proyects">PROYECTOS</a>
         <a className="containerHeader__a" href="#section__education">EDUCACIÓN</a>
         <a className="containerHeader__a" href="#section__contacts">CONTACTOS</a>
 
