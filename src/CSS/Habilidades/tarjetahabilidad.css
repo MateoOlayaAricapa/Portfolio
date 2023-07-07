@@ -1,0 +1,61 @@
+.containerCardSkill{
+    width: 12em;
+    height: 10em;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 3px solid #84B6F4;
+    box-shadow: 0px 4px 10px 0px rgba(72, 72, 72, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerCardSkill__img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCardSkill__img img{
+    object-fit: cover;
+}
+
+.containerCardSkill h1{
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+/*Media queries*/
+
+/*Pantallas pequeñas*/
+@media screen and (max-width: 1024px){
+    .containerCardSkill{
+        width: 10em;
+        height: 8em;
+        gap: 0.5em;
+    }
+    .containerCardSkill h1{
+        font-size: 1em;
+    }
+}
+
+
+/* Pantallas grandres */
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .containerCardSkill{
+        width: 11em;
+        height: 9em;
+        gap: 0.5em;
+    }
+    .containerCardSkill h1{
+        font-size: 1.1em;
+    }
+}

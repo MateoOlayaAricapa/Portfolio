@@ -1,0 +1,46 @@
+.containerCardContact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+    gap: 0.5em;
+}
+
+.containerCardContact__img{
+    width: 6.3125em;
+    height: 6.3125em;
+    flex-shrink: 0;
+    border-radius: 6.3125em;
+    background: #F4C284;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCardContact__img img{
+    width: 45%;
+}
+
+.containerCardContact h3{
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.containerCardContact__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCardContact__title h4{
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}

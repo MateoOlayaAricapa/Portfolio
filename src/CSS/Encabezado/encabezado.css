@@ -1,0 +1,54 @@
+/* Estilo bloque */
+.containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 1em 3em 1em;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #EDF1FD;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+}
+
+/* Estilo elemento */
+.containerHeader__a{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.containerHeader__a:hover{
+    color: #84B6F4;
+}
+
+/* Media queries */
+
+/* Pantallas portátiles */
+@media screen and (max-width: 1024px){
+    .containerHeader{
+        padding: 2em 1em 2em 1em;
+    }
+    
+    .containerHeader__a{
+        font-size: 0.9em;
+    }
+}
+
+/* Pantallas grandres */
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .containerHeader{
+        padding: 2em 1em 2em 1em;
+    }
+    
+    .containerHeader__a{
+        font-size: 0.9em;
+    }
+}

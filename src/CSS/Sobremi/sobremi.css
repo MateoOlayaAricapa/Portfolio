@@ -1,0 +1,238 @@
+.containerAboutMe{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerAboutMe__photo{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Poppins;
+}
+
+.containerAboutMe__photo__data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerAboutMe__photo__data__experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.containerAboutMe__photo__data__experience h1{
+    color: #84B6F4;
+    font-size: 2.8125em;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.containerAboutMe__photo__data__experience h2{
+    color: #1D1D1D;
+    font-size: 0.875em;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 0.5em;
+}
+
+.containerAboutMe__info{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Poppins;
+}
+
+.containerAboutMe__info__title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.containerAboutMe__info__title h1{
+    color: #84B6F4;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+
+.containerAboutMe__info__title img{
+    width: 2.125em;
+    margin-left: 1.5em;
+}
+
+.containerAboutMe__info__text{
+    width: 100%;
+}
+
+.containerAboutMe__info__text__span{
+    font-weight: 700;
+}
+
+.containerAboutMe__info__text p{
+    color: #1D1D1D;
+    text-align: justify;
+    font-size: 0.9375em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.containerAboutMe__info__buttons{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.containerAboutMe__info__buttons a{
+    padding: 1em 3em 1em 3em;
+    border-radius: 2.1875em;
+    text-decoration: none;
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 0.8125em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.containerAboutMe__info__buttons__download{
+    background-color: #F4C284;
+}
+
+.containerAboutMe__info__buttons__contact{
+    border: 2px solid #F4C284;
+    background-color: transparent;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 1024px){
+    .containerAboutMe{
+        gap: 1em;
+    }
+    .containerAboutMe__photo{
+        width: 35%;
+    }
+    .containerAboutMe__photo__img img{
+        width: 90%;
+    }
+    .containerAboutMe__photo__data{
+        margin: 0em;
+    }
+    .containerAboutMe__photo__data__experience{
+        gap: 0.5em;
+    }
+    .containerAboutMe__photo__data__experience h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .containerAboutMe__photo__data__experience h2{
+        font-size: 0.7em;
+        margin: 0;
+    }
+    .containerAboutMe__info{
+        width: 35%;
+    }
+    .containerAboutMe__info__text p{
+        font-size: 0.7em;
+    }
+    .containerAboutMe__info__buttons{
+        margin-top: 1em;
+    }
+    .containerAboutMe__info__buttons a{
+        padding: 1em 2em 1em 2em;
+        border-radius: 2.1875em;
+        font-size: 0.7em;
+    }
+}
+
+/* Pantallas grandres */
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .containerAboutMe{
+        gap: 1em;
+    }
+    .containerAboutMe__photo{
+        width: 40%;
+    }
+    .containerAboutMe__photo__img img{
+        width: 90%;
+    }
+    .containerAboutMe__photo__data{
+        margin: 0em;
+    }
+    .containerAboutMe__photo__data__experience{
+        gap: 0.5em;
+    }
+    .containerAboutMe__photo__data__experience h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .containerAboutMe__photo__data__experience h2{
+        font-size: 0.7em;
+        margin: 0;
+    }
+    .containerAboutMe__info{
+        width: 40%;
+    }
+    .containerAboutMe__info__text p{
+        font-size: 0.8em;
+    }
+    .containerAboutMe__info__buttons{
+        margin-top: 1em;
+    }
+    .containerAboutMe__info__buttons a{
+        padding: 1em 2em 1em 2em;
+        border-radius: 2.1875em;
+        font-size: 0.7em;
+    }
+}
+
+/* Pantallas media-grandres */
+@media screen and (min-width: 1281px) and (max-width: 1440px){
+    .containerAboutMe{
+        gap: 1em;
+    }
+    .containerAboutMe__photo{
+        width: 40%;
+    }
+    .containerAboutMe__photo__img img{
+        width: 90%;
+    }
+    .containerAboutMe__photo__data{
+        margin: 0em;
+    }
+    .containerAboutMe__photo__data__experience{
+        gap: 0.5em;
+    }
+    .containerAboutMe__photo__data__experience h1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .containerAboutMe__photo__data__experience h2{
+        font-size: 0.7em;
+        margin: 0;
+    }
+    .containerAboutMe__info{
+        width: 40%;
+    }
+    .containerAboutMe__info__text p{
+        font-size: 0.8em;
+    }
+    .containerAboutMe__info__buttons{
+        margin-top: 1em;
+    }
+    .containerAboutMe__info__buttons a{
+        padding: 1em 2em 1em 2em;
+        border-radius: 2.1875em;
+        font-size: 0.7em;
+    }
+}

@@ -1,0 +1,44 @@
+.containerEducation{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerEducation__h1{
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.containerEducation__cards{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5em;
+    gap: 2em;
+}
+
+/*Media queries*/
+
+/*Pantallas pequeñas*/
+@media screen and (max-width: 1024px){
+    .containerEducation__cards{
+        margin-top: 2em;
+        gap: 1em;
+    }
+}
+
+/* Pantallas grandres */
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .containerEducation__cards{
+        margin-top: 2em;
+        gap: 1em;
+    } 
+}

@@ -1,0 +1,36 @@
+.containerProyects{
+    width: 100%;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.containerProyects h1{
+    color: #84B6F4;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.containerProyects__cards{
+    width: 80%;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Media queries*/
+
+/*Pantallas pequeñas*/
+@media screen and (max-width: 1024px){
+    .containerProyects__cards{
+        width: 100%;
+        gap: 0.5em;
+    }
+}

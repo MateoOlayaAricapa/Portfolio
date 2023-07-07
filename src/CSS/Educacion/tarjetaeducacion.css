@@ -1,0 +1,127 @@
+.containerInfoEducacion{
+    width: 54.3em;
+    height: 14.3em;
+    flex-shrink: 0;
+    border-radius: 0.3125em;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(194, 194, 194, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5em;
+}
+
+.containerInfoEducacion__imgUniversity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.6875em;
+    height: 10.6875em;
+    flex-shrink: 0;
+    border-radius: 10.6875em;
+    background: #FFA8AC;
+    box-shadow: 0px 4px 10px 0px rgba(197, 197, 197, 0.25);
+}
+
+.containerInfoEducacion__imgUniversity img{
+    width: 60%;
+    object-fit: cover;
+}
+
+.containerInfoEducacion__info{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerInfoEducacion__info__Important{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5em;
+}
+
+.containerInfoEducacion__info__Important__nameUniversity{
+    font-family: Poppins;
+}
+
+.containerInfoEducacion__info__Important__nameUniversity h2{
+    color: #FFA8AC;
+    font-size: 0.875em;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.containerInfoEducacion__info__Important__typeEducation{
+    width: 10.125em;
+    height: 1.3125em;
+    flex-shrink: 0;
+    border-radius: 0.625em;
+    background: #F4C284;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerInfoEducacion__info__Important__typeEducation h3{
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 0.6875em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.containerInfoEducacion__info__Important__years{
+    width: 6.5625em;
+    height: 1.3125em;
+    flex-shrink: 0;
+    border-radius: 0.625em;
+    background: #84B6F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerInfoEducacion__info__Important__years h3{
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 0.6875em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.containerInfoEducacion__info__Title{
+    width: 100%;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.containerInfoEducacion__info__Title h1{
+    color: #1D1D1D;
+    font-size: 1.375em;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+
+.containerInfoEducacion__info__description{
+    width: 100%;
+    font-family: Poppins;
+    margin-top: 0.5em;
+}
+
+.containerInfoEducacion__info__description p{
+    color: #7C7C7C;
+    text-align: justify;
+    font-size: 0.8125em;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
