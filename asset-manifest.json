@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0b247bc0.css",
+    "main.js": "/Portfolio/static/js/main.036f435d.js",
+    "static/media/Hoja de vida.pdf": "/Portfolio/static/media/Hoja de vida.44cdaa32ce6a6704d599.pdf",
+    "static/media/FotoPerfilSecundario.png": "/Portfolio/static/media/FotoPerfilSecundario.6d537276cc534c1b7416.png",
+    "static/media/Matematicas.png": "/Portfolio/static/media/Matematicas.8a5ac8d1709be1ec6798.png",
+    "static/media/ImagenPerfilInicial.png": "/Portfolio/static/media/ImagenPerfilInicial.9a121f4bac2eb68d4191.png",
+    "static/media/mysql.png": "/Portfolio/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/Perfil.png": "/Portfolio/static/media/Perfil.8f25658fab3564655b73.png",
+    "static/media/Logo-uao.png": "/Portfolio/static/media/Logo-uao.319eb900286f25397ad3.png",
+    "static/media/piton.png": "/Portfolio/static/media/piton.6a5cbc319ab3ddf8ef92.png",
+    "static/media/Repositorio.png": "/Portfolio/static/media/Repositorio.7a703eb779a20164a527.png",
+    "static/media/Régimen.png": "/Portfolio/static/media/Régimen.89859e40b89bcc273d29.png",
+    "static/media/api.png": "/Portfolio/static/media/api.f87874ce047da91ec983.png",
+    "static/media/github.png": "/Portfolio/static/media/github.69235b8fcb514a3c5b43.png",
+    "static/media/enlace.png": "/Portfolio/static/media/enlace.7e239091a2d43e99001d.png",
+    "static/media/base-de-datos.png": "/Portfolio/static/media/base-de-datos.8fa35626f701ea317473.png",
+    "static/media/html-5.png": "/Portfolio/static/media/html-5.1db74158ea254da48938.png",
+    "static/media/LogoReact.png": "/Portfolio/static/media/LogoReact.0f0770d11005fa1eadb0.png",
+    "static/media/JIC.png": "/Portfolio/static/media/JIC.6dbcc23bd62b1a6e8baa.png",
+    "static/media/java.png": "/Portfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/correo-electronico.png": "/Portfolio/static/media/correo-electronico.7a778be0468ebadf21fe.png",
+    "static/media/css-3.png": "/Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/Cerrar.png": "/Portfolio/static/media/Cerrar.3d7651a73814a50797aa.png",
+    "static/media/ilustrador.png": "/Portfolio/static/media/ilustrador.c8306d9279929e8b8cfe.png",
+    "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/premier.png": "/Portfolio/static/media/premier.19f116f90f8973a256b5.png",
+    "index.html": "/Portfolio/index.html",
+    "main.0b247bc0.css.map": "/Portfolio/static/css/main.0b247bc0.css.map",
+    "main.036f435d.js.map": "/Portfolio/static/js/main.036f435d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b247bc0.css",
+    "static/js/main.036f435d.js"
+  ]
+}
