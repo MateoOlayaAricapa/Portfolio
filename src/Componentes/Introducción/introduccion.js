@@ -38,7 +38,7 @@ function SeccionIntroduccion(){
                 <a href="https://www.linkedin.com/feed/" className="containerIntro__text__buttons--social" target="_blank" rel="noreferrer">
                     <img src={IconLinkedin} alt="icono que representa la plataforma de linkedin"/>
                 </a>
-                <a href="https://github.com/" className="containerIntro__text__buttons--social" target="_blank" rel="noreferrer">
+                <a href="https://github.com/MateoOlayaAricapa" className="containerIntro__text__buttons--social" target="_blank" rel="noreferrer">
                     <img src={IconGitHub} alt="icono que representa la plataforma de GitHub"/>
                 </a>
            </div>
