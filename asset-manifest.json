@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0b247bc0.css",
-    "main.js": "/Portfolio/static/js/main.f1926f7b.js",
+    "main.js": "/Portfolio/static/js/main.1bb3006e.js",
     "static/media/Hoja de vida.pdf": "/Portfolio/static/media/Hoja de vida.46635b1197268dae14f8.pdf",
     "static/media/FotoPerfilSecundario.png": "/Portfolio/static/media/FotoPerfilSecundario.6d537276cc534c1b7416.png",
     "static/media/Matematicas.png": "/Portfolio/static/media/Matematicas.8a5ac8d1709be1ec6798.png",
@@ -28,10 +28,10 @@
     "static/media/premier.png": "/Portfolio/static/media/premier.19f116f90f8973a256b5.png",
     "index.html": "/Portfolio/index.html",
     "main.0b247bc0.css.map": "/Portfolio/static/css/main.0b247bc0.css.map",
-    "main.f1926f7b.js.map": "/Portfolio/static/js/main.f1926f7b.js.map"
+    "main.1bb3006e.js.map": "/Portfolio/static/js/main.1bb3006e.js.map"
   },
   "entrypoints": [
     "static/css/main.0b247bc0.css",
-    "static/js/main.f1926f7b.js"
+    "static/js/main.1bb3006e.js"
   ]
 }
