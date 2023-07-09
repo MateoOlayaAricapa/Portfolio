@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0b247bc0.css",
-    "main.js": "/Portfolio/static/js/main.1bb3006e.js",
-    "static/media/Hoja de vida.pdf": "/Portfolio/static/media/Hoja de vida.46635b1197268dae14f8.pdf",
+    "main.css": "/Portfolio/static/css/main.c1a4092a.css",
+    "main.js": "/Portfolio/static/js/main.56a6fa47.js",
+    "static/media/Hoja de vida.pdf": "/Portfolio/static/media/Hoja de vida.3123256fbfa5fe3eade9.pdf",
     "static/media/FotoPerfilSecundario.png": "/Portfolio/static/media/FotoPerfilSecundario.6d537276cc534c1b7416.png",
     "static/media/Matematicas.png": "/Portfolio/static/media/Matematicas.8a5ac8d1709be1ec6798.png",
     "static/media/ImagenPerfilInicial.png": "/Portfolio/static/media/ImagenPerfilInicial.9a121f4bac2eb68d4191.png",
@@ -27,11 +27,11 @@
     "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/premier.png": "/Portfolio/static/media/premier.19f116f90f8973a256b5.png",
     "index.html": "/Portfolio/index.html",
-    "main.0b247bc0.css.map": "/Portfolio/static/css/main.0b247bc0.css.map",
-    "main.1bb3006e.js.map": "/Portfolio/static/js/main.1bb3006e.js.map"
+    "main.c1a4092a.css.map": "/Portfolio/static/css/main.c1a4092a.css.map",
+    "main.56a6fa47.js.map": "/Portfolio/static/js/main.56a6fa47.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b247bc0.css",
-    "static/js/main.1bb3006e.js"
+    "static/css/main.c1a4092a.css",
+    "static/js/main.56a6fa47.js"
   ]
 }
