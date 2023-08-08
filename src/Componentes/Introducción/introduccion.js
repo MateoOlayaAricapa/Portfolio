@@ -35,7 +35,7 @@ function SeccionIntroduccion(){
 
            <div className="containerIntro__text__buttons">
                 <a href={archivoPDF} className="containerIntro__text__href--download" type="button" download>DESCARGAR CV</a>
-                <a href="https://www.linkedin.com/feed/" className="containerIntro__text__buttons--social" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/mateoolayaaricapa/" className="containerIntro__text__buttons--social" target="_blank" rel="noreferrer">
                     <img src={IconLinkedin} alt="icono que representa la plataforma de linkedin"/>
                 </a>
                 <a href="https://github.com/MateoOlayaAricapa" className="containerIntro__text__buttons--social" target="_blank" rel="noreferrer">
