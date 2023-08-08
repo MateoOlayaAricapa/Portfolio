@@ -11,8 +11,8 @@ import IconJava from "../../Multimedia/java.png";
 import IconPython from "../../Multimedia/piton.png";
 import IconSQL from "../../Multimedia/base-de-datos.png";
 import IconMySQL from "../../Multimedia/mysql.png";
-import Iconilustrator from "../../Multimedia/ilustrador.png";
-import IconPremier from "../../Multimedia/premier.png";
+import IconNode from "../../Multimedia/nodejs.png";
+import IconPosgreSQL from "../../Multimedia/postgre.png";
 import Icongit from "../../Multimedia/github.png";
 import IconRest from "../../Multimedia/api.png";
 
@@ -27,8 +27,8 @@ function SeccionHabilidades(){
     {url:IconPython, titulo:"Python", widthImagen:"4em"},
     {url:IconSQL, titulo:"SQL", widthImagen:"4em"},
     {url:IconMySQL, titulo:"MySQL", widthImagen:"4em"},
-    {url:Iconilustrator, titulo:"Ilustrator", widthImagen:"4em"},
-    {url:IconPremier, titulo:"Adobe Premier", widthImagen:"4em"},
+    {url:IconNode, titulo:"Node JS", widthImagen:"4em"},
+    {url:IconPosgreSQL, titulo:"PostgreSQL", widthImagen:"4em"},
     {url:Icongit, titulo:"GitHub", widthImagen:"4em"},
     {url:IconRest, titulo:"Rest API", widthImagen:"4em"}];
 

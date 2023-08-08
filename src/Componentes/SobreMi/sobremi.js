@@ -47,7 +47,7 @@ function SeccionSobremi(){
                 <p> Soy Ingeniero multimedia egresado de la <span className="containerAboutMe__info__text__span">Universidad Autónoma de Occidente </span> 
                     que es altamente apasionado por la integración de la tecnología y el diseño 
                     creativo. Mi enfoque se centra en el desarrollo de aplicaciones e interfaces 
-                    web y móviles interactivas como desarrollador Front End. 
+                    web interactivas como desarrollador Front End. 
                     <br/><br/>
                     Por otro lado, busco encontrar una oportunidad laboral que me permita poner en
                     práctica todo el conocimiento aprendido en mi carrera, y de ese modo comenzar a 

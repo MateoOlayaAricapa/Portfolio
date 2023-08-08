@@ -4,6 +4,7 @@ import ImageNF from "../Multimedia/NETFLIX.png";
 import ImageRegimen from "../Multimedia/Régimen.png";
 import ImageMatematicas from "../Multimedia/Matematicas.png";
 import ImageRepositorio from "../Multimedia/Repositorio.png";
+import ImageKazoku from "../Multimedia/Kazoku.png";
 
 //Archivo que contiene los datos de los proyectos
 export const DatosProyectos = [
@@ -36,7 +37,13 @@ export const DatosProyectos = [
     urlVideo: "https://youtu.be/SWm3X4jj480", 
     descripcion: "Proyecto realizado en la especialización de Analítica de Big Data que buscaba desarrollar modelos de aprendizaje para solucionar una problemática hipotética presentada en la compañía de Netflix. Esta basaría su realización con la metología CRIPS-DM y un conjunto de datos disponibles de películas y series.", 
     urlGitHub:"https://github.com/MateoOlayaAricapa/BigData_Netflix.git", 
-    tecnologies: ["Python","Big Data","CRIPS-DM"]}
+    tecnologies: ["Python","Big Data","CRIPS-DM"]},
+    {title:"Sitio Web de venta comida ONLINE restaurante Kazoku Izakaya japonés", 
+    year:"2023", 
+    urlVideo: "https://youtu.be/EirXfLNhxFA", 
+    descripcion: "Este proyecto abarca el desarrollo de un sitio web para un restaurante japonés ubicado en la ciudad de Cali, Colombia. Por otro lado, el objetivo es que se puedan realizar compras de platos de comida de manera ONLINE para un público especifíco.", 
+    urlGitHub:"https://github.com/MateoOlayaAricapa/Proyecto_Kazoku.git", 
+    tecnologies: ["React js", ".NET CORE", "PostgreSQL"]}
 ];
 
 export const DatosTarjetaProyecto = [
@@ -64,5 +71,10 @@ export const DatosTarjetaProyecto = [
     urlImagen: ImageNF,  
     anho:"2023", 
     title:"Modelos de aprendizaje automático para proyecto Big Data Netflix", 
-    descripcion:"Proyecto realizado en la especialización de Analítica de Big Data que buscaba desarrollar modelos de aprendizaje para solucionar una problemática hipotética presentada en la compañía de Netflix. Esta basaría su realización con la metología CRIPS-DM y un conjunto de datos disponibles de películas y series."}
+    descripcion:"Proyecto realizado en la especialización de Analítica de Big Data que buscaba desarrollar modelos de aprendizaje para solucionar una problemática hipotética presentada en la compañía de Netflix. Esta basaría su realización con la metología CRIPS-DM y un conjunto de datos disponibles de películas y series."},
+    {tipoProyecto:"Sitio Web",
+    urlImagen: ImageKazoku,  
+    anho:"2023", 
+    title:"Sitio Web de venta comida ONLINE restaurante Kazoku japonés", 
+    descripcion:"Este proyecto abarca el desarrollo de un sitio web para un restaurante japonés ubicado en la ciudad de Cali, Colombia. Por otro lado, el objetivo es que se puedan realizar compras de platos de comida de manera ONLINE para un público especifíco."}
 ];

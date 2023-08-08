@@ -17,6 +17,7 @@ function SeccionProyectos(){
     const [proyecthree, setproyecthree] = useState(false);
     const [proyectfour, setproyectfour] = useState(false);
     const [proyectfive, setproyectfive] = useState(false);
+    const [proyectsix, setproyectsix] = useState(false);
 
     var datoproyecto = {};
 
@@ -41,6 +42,10 @@ function SeccionProyectos(){
 
         datoproyecto = DatosProyectos[4];
 
+    }else if(proyectsix){
+
+        datoproyecto = DatosProyectos[5];
+
     }//Fin condición
 
     return(<section id="section__proyects" className="containerProyects">
@@ -52,24 +57,28 @@ function SeccionProyectos(){
         <div className="containerProyects__cards">
             
             <TarjetaProyecto setVentanaP={setVentanaPopup} 
-            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} 
-            v1={true} v2={false} v3={false} v4={false} v5={false} datostarjeta={DatosTarjetaProyecto[0]}/>
+            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} setp6={setproyectsix} 
+            v1={true} v2={false} v3={false} v4={false} v5={false} v6={false} datostarjeta={DatosTarjetaProyecto[0]}/>
 
             <TarjetaProyecto setVentanaP={setVentanaPopup}
-            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} 
-            v1={false} v2={true} v3={false} v4={false} v5={false} datostarjeta={DatosTarjetaProyecto[1]}/>
+            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} setp6={setproyectsix} 
+            v1={false} v2={true} v3={false} v4={false} v5={false} v6={false} datostarjeta={DatosTarjetaProyecto[1]}/>
 
             <TarjetaProyecto setVentanaP={setVentanaPopup}
-            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} 
-            v1={false} v2={false} v3={true} v4={false} v5={false} datostarjeta={DatosTarjetaProyecto[2]}/>
+            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} setp6={setproyectsix} 
+            v1={false} v2={false} v3={true} v4={false} v5={false} v6={false} datostarjeta={DatosTarjetaProyecto[2]}/>
 
             <TarjetaProyecto setVentanaP={setVentanaPopup}
-            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} 
-            v1={false} v2={false} v3={false} v4={true} v5={false} datostarjeta={DatosTarjetaProyecto[3]}/>
+            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} setp6={setproyectsix} 
+            v1={false} v2={false} v3={false} v4={true} v5={false} v6={false} datostarjeta={DatosTarjetaProyecto[3]}/>
 
             <TarjetaProyecto setVentanaP={setVentanaPopup}
-            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} 
-            v1={false} v2={false} v3={false} v4={false} v5={true} datostarjeta={DatosTarjetaProyecto[4]}/>
+            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} setp6={setproyectsix} 
+            v1={false} v2={false} v3={false} v4={false} v5={true} v6={false} datostarjeta={DatosTarjetaProyecto[4]}/>
+
+            <TarjetaProyecto setVentanaP={setVentanaPopup}
+            setp1={setproyectone} setp2={setproyecttwo} setp3={setproyecthree} setp4={setproyectfour} setp5={setproyectfive} setp6={setproyectsix} 
+            v1={false} v2={false} v3={false} v4={false} v5={false} v6={true} datostarjeta={DatosTarjetaProyecto[5]}/>
 
         </div>
         

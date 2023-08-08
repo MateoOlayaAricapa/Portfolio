@@ -5,7 +5,7 @@ import "../../CSS/Proyectos/tarjetaproyectos.css";
 import IconSelect from "../../Multimedia/Seleccionar.png";
 
 //Esta componente creará una tarjeta con la información de un proyecto
-function TarjetaProyecto({setVentanaP, setp1, setp2, setp3, setp4, setp5, v1, v2, v3, v4, v5, datostarjeta}){
+function TarjetaProyecto({setVentanaP, setp1, setp2, setp3, setp4, setp5, setp6, v1, v2, v3, v4, v5, v6, datostarjeta}){
 
     const [hoverCursor, setHoverCursor] = useState(false);
 
@@ -17,6 +17,7 @@ function TarjetaProyecto({setVentanaP, setp1, setp2, setp3, setp4, setp5, v1, v2
         setp3(v3);
         setp4(v4);
         setp5(v5);
+        setp6(v6);
     }//Fin función
 
     return(<div className="containerInfoCard" onMouseEnter={()=> setHoverCursor(true)} onMouseLeave={()=> setHoverCursor(false)} onClick={()=> OperacionesTarjeta()}>
